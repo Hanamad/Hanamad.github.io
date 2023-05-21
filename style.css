@@ -1,0 +1,59 @@
+body {
+  margin: 10mm;
+  background-image: url(https://3.bp.blogspot.com/-RaorfYn_cUs/WrOgMu5UyaI/AAAAAAAAAho/FOtYhR8DgMQA4BNdl5NDrmzH07mc1y5EQCLcBGAs/s1600/japanese-desktop-wallpaper-4.jpg);
+  /*background: linear-gradient(to right, #ffb7c5, white);*/
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transform: rotate(90deg);
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.aside .bandeau {
+  background-color: #FF0000;
+}
+
+.page .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page .div1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page .header .h1 {
+  background: rgb(255,132,156,0.3);
+}
+
+.page .div2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page .div1 .article {
+  background-color: rgba(255,255,255,0.5);
+}
+
+table {
+  width: 100%;border:1px solid black;
+}
+th {
+  text-align: center; vertical-align: middle;
+border:1px solid black; background-color:white;
+}
+td {
+  text-align: center; vertical-align: middle;
+border:1px solid black;
+}
+.italic {
+  font-style:italic;
+}
